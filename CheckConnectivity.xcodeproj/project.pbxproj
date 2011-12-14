@@ -1,0 +1,331 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		B881DE501498E410009089CE /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B881DE4F1498E410009089CE /* UIKit.framework */; };
+		B881DE521498E410009089CE /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B881DE511498E410009089CE /* Foundation.framework */; };
+		B881DE541498E410009089CE /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B881DE531498E410009089CE /* CoreGraphics.framework */; };
+		B881DE5A1498E410009089CE /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = B881DE581498E410009089CE /* InfoPlist.strings */; };
+		B881DE5C1498E410009089CE /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = B881DE5B1498E410009089CE /* main.m */; };
+		B881DE601498E410009089CE /* CheckConnectivityAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = B881DE5F1498E410009089CE /* CheckConnectivityAppDelegate.m */; };
+		B881DE631498E410009089CE /* CheckConnectivityViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B881DE621498E410009089CE /* CheckConnectivityViewController.m */; };
+		B881DE661498E410009089CE /* CheckConnectivityViewController_iPhone.xib in Resources */ = {isa = PBXBuildFile; fileRef = B881DE641498E410009089CE /* CheckConnectivityViewController_iPhone.xib */; };
+		B881DE691498E410009089CE /* CheckConnectivityViewController_iPad.xib in Resources */ = {isa = PBXBuildFile; fileRef = B881DE671498E410009089CE /* CheckConnectivityViewController_iPad.xib */; };
+		B8B7E26E1498E7A000507B90 /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B8B7E26D1498E7A000507B90 /* SystemConfiguration.framework */; };
+		B8D138071498E66200035875 /* Reachability.m in Sources */ = {isa = PBXBuildFile; fileRef = B8D138061498E66200035875 /* Reachability.m */; };
+		B8D1380C1498E69E00035875 /* ConnectivityHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = B8D1380B1498E69E00035875 /* ConnectivityHelper.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		B881DE4B1498E410009089CE /* CheckConnectivity.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CheckConnectivity.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		B881DE4F1498E410009089CE /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		B881DE511498E410009089CE /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		B881DE531498E410009089CE /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		B881DE571498E410009089CE /* CheckConnectivity-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "CheckConnectivity-Info.plist"; sourceTree = "<group>"; };
+		B881DE591498E410009089CE /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		B881DE5B1498E410009089CE /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		B881DE5D1498E410009089CE /* CheckConnectivity-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "CheckConnectivity-Prefix.pch"; sourceTree = "<group>"; };
+		B881DE5E1498E410009089CE /* CheckConnectivityAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CheckConnectivityAppDelegate.h; sourceTree = "<group>"; };
+		B881DE5F1498E410009089CE /* CheckConnectivityAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CheckConnectivityAppDelegate.m; sourceTree = "<group>"; };
+		B881DE611498E410009089CE /* CheckConnectivityViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CheckConnectivityViewController.h; sourceTree = "<group>"; };
+		B881DE621498E410009089CE /* CheckConnectivityViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CheckConnectivityViewController.m; sourceTree = "<group>"; };
+		B881DE651498E410009089CE /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/CheckConnectivityViewController_iPhone.xib; sourceTree = "<group>"; };
+		B881DE681498E410009089CE /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/CheckConnectivityViewController_iPad.xib; sourceTree = "<group>"; };
+		B8B7E26D1498E7A000507B90 /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
+		B8D138051498E66200035875 /* Reachability.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Reachability.h; sourceTree = "<group>"; };
+		B8D138061498E66200035875 /* Reachability.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Reachability.m; sourceTree = "<group>"; };
+		B8D1380A1498E69E00035875 /* ConnectivityHelper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ConnectivityHelper.h; sourceTree = "<group>"; };
+		B8D1380B1498E69E00035875 /* ConnectivityHelper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ConnectivityHelper.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		B881DE481498E410009089CE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B8B7E26E1498E7A000507B90 /* SystemConfiguration.framework in Frameworks */,
+				B881DE501498E410009089CE /* UIKit.framework in Frameworks */,
+				B881DE521498E410009089CE /* Foundation.framework in Frameworks */,
+				B881DE541498E410009089CE /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		B881DE401498E40F009089CE = {
+			isa = PBXGroup;
+			children = (
+				B8B7E26D1498E7A000507B90 /* SystemConfiguration.framework */,
+				B8D138091498E69E00035875 /* Helpers */,
+				B8D138041498E66200035875 /* Reachability */,
+				B881DE551498E410009089CE /* CheckConnectivity */,
+				B881DE4E1498E410009089CE /* Frameworks */,
+				B881DE4C1498E410009089CE /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		B881DE4C1498E410009089CE /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				B881DE4B1498E410009089CE /* CheckConnectivity.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		B881DE4E1498E410009089CE /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				B881DE4F1498E410009089CE /* UIKit.framework */,
+				B881DE511498E410009089CE /* Foundation.framework */,
+				B881DE531498E410009089CE /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		B881DE551498E410009089CE /* CheckConnectivity */ = {
+			isa = PBXGroup;
+			children = (
+				B881DE5E1498E410009089CE /* CheckConnectivityAppDelegate.h */,
+				B881DE5F1498E410009089CE /* CheckConnectivityAppDelegate.m */,
+				B881DE611498E410009089CE /* CheckConnectivityViewController.h */,
+				B881DE621498E410009089CE /* CheckConnectivityViewController.m */,
+				B881DE641498E410009089CE /* CheckConnectivityViewController_iPhone.xib */,
+				B881DE671498E410009089CE /* CheckConnectivityViewController_iPad.xib */,
+				B881DE561498E410009089CE /* Supporting Files */,
+			);
+			path = CheckConnectivity;
+			sourceTree = "<group>";
+		};
+		B881DE561498E410009089CE /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				B881DE571498E410009089CE /* CheckConnectivity-Info.plist */,
+				B881DE581498E410009089CE /* InfoPlist.strings */,
+				B881DE5B1498E410009089CE /* main.m */,
+				B881DE5D1498E410009089CE /* CheckConnectivity-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		B8D138041498E66200035875 /* Reachability */ = {
+			isa = PBXGroup;
+			children = (
+				B8D138051498E66200035875 /* Reachability.h */,
+				B8D138061498E66200035875 /* Reachability.m */,
+			);
+			path = Reachability;
+			sourceTree = "<group>";
+		};
+		B8D138091498E69E00035875 /* Helpers */ = {
+			isa = PBXGroup;
+			children = (
+				B8D1380A1498E69E00035875 /* ConnectivityHelper.h */,
+				B8D1380B1498E69E00035875 /* ConnectivityHelper.m */,
+			);
+			path = Helpers;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		B881DE4A1498E410009089CE /* CheckConnectivity */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B881DE6C1498E410009089CE /* Build configuration list for PBXNativeTarget "CheckConnectivity" */;
+			buildPhases = (
+				B881DE471498E410009089CE /* Sources */,
+				B881DE481498E410009089CE /* Frameworks */,
+				B881DE491498E410009089CE /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = CheckConnectivity;
+			productName = CheckConnectivity;
+			productReference = B881DE4B1498E410009089CE /* CheckConnectivity.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		B881DE421498E40F009089CE /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0420;
+				ORGANIZATIONNAME = Inaras;
+			};
+			buildConfigurationList = B881DE451498E40F009089CE /* Build configuration list for PBXProject "CheckConnectivity" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = B881DE401498E40F009089CE;
+			productRefGroup = B881DE4C1498E410009089CE /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				B881DE4A1498E410009089CE /* CheckConnectivity */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		B881DE491498E410009089CE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B881DE5A1498E410009089CE /* InfoPlist.strings in Resources */,
+				B881DE661498E410009089CE /* CheckConnectivityViewController_iPhone.xib in Resources */,
+				B881DE691498E410009089CE /* CheckConnectivityViewController_iPad.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		B881DE471498E410009089CE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B881DE5C1498E410009089CE /* main.m in Sources */,
+				B881DE601498E410009089CE /* CheckConnectivityAppDelegate.m in Sources */,
+				B881DE631498E410009089CE /* CheckConnectivityViewController.m in Sources */,
+				B8D138071498E66200035875 /* Reachability.m in Sources */,
+				B8D1380C1498E69E00035875 /* ConnectivityHelper.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		B881DE581498E410009089CE /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B881DE591498E410009089CE /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		B881DE641498E410009089CE /* CheckConnectivityViewController_iPhone.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B881DE651498E410009089CE /* en */,
+			);
+			name = CheckConnectivityViewController_iPhone.xib;
+			sourceTree = "<group>";
+		};
+		B881DE671498E410009089CE /* CheckConnectivityViewController_iPad.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B881DE681498E410009089CE /* en */,
+			);
+			name = CheckConnectivityViewController_iPad.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		B881DE6A1498E410009089CE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution: Osman Celik";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "4B7ABEF9-8A95-456C-81A7-7B37DD700C2C";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		B881DE6B1498E410009089CE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution: Osman Celik";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "4B7ABEF9-8A95-456C-81A7-7B37DD700C2C";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		B881DE6D1498E410009089CE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "CheckConnectivity/CheckConnectivity-Prefix.pch";
+				INFOPLIST_FILE = "CheckConnectivity/CheckConnectivity-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		B881DE6E1498E410009089CE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "CheckConnectivity/CheckConnectivity-Prefix.pch";
+				INFOPLIST_FILE = "CheckConnectivity/CheckConnectivity-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		B881DE451498E40F009089CE /* Build configuration list for PBXProject "CheckConnectivity" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B881DE6A1498E410009089CE /* Debug */,
+				B881DE6B1498E410009089CE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B881DE6C1498E410009089CE /* Build configuration list for PBXNativeTarget "CheckConnectivity" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B881DE6D1498E410009089CE /* Debug */,
+				B881DE6E1498E410009089CE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = B881DE421498E40F009089CE /* Project object */;
+}
